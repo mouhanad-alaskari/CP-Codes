@@ -171,5 +171,8 @@ class LinkCut
 };
 
 int main(void)
-{   return 0;
+{
+    LinkCut tree(n);
+    tree.link();
+    return 0;
 }
